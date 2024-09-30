@@ -1,0 +1,178 @@
+@charset "ISO-8859-1";
+
+#sub{
+	background-color: initial;
+	color: beige;
+}
+
+#but{
+	background-color: darkcyan;
+	
+}
+#nav{
+	background-color: rgb(215, 215, 215);
+	 
+
+}
+#About{
+	 background-color: rgb(64, 128, 128) ;
+    background-image:url(https://t4.ftcdn.net/jpg/04/14/94/73/360_F_414947391_5re0DqNu0ecsyCI6YPQV9bJSSvgl1tqx.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	padding-bottom: 100px;
+	
+}
+#contact{
+	
+	 
+	padding-bottom: 100px;
+}
+#fpage{
+	background-color: rgb(255, 255, 255);
+	 background-image:url(https://visourz.com/images/slider/ex.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#form{
+	
+	background-color: rgb(215, 215, 215);
+	padding-top: 20px;
+	color: black;
+	margin-left: auto;
+	box-sizing: content-box;
+
+	
+}
+#h1{
+	color: rgb(0, 0, 0);
+}
+
+#p{
+	color: rgb(0, 0, 0);
+}
+
+#body{
+	
+	
+}
+#parts{
+	background-color: rgb(192, 192, 192,0.6) ;
+	
+	border-radius: 30px;
+	padding-top: 30px;
+	margin-right: 700px;
+}
+
+
+
+#fstart{
+	
+	padding: 20px;
+	 background-image:url(https://png.pngtree.com/background/20210714/original/pngtree-abstract-futuristic-digital-technology-blue-and-black-background-illustration-picture-image_1205245.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+}
+
+#footer{
+	background-color: rgb(221, 221, 221);
+	 background-image:url(https://c4.wallpaperflare.com/wallpaper/410/77/199/5bd0bdc12d414-wallpaper-preview.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+#last{
+	background-color: black;
+
+}
+
+#sign{
+	color: aliceblue;
+  
+}
+#con{
+	background-color: rgb(192, 192, 192,0.6) ;
+	border-radius: 20px;
+	padding-top: 40px;
+	padding-left: 40px;
+	color: black;
+	padding-bottom: 40px;
+	
+}
+#cont{
+	
+	background-color: rgb(182, 182, 182);
+	padding: 20px;
+	 background-image:url(https://png.pngtree.com/background/20210714/original/pngtree-abstract-futuristic-digital-technology-blue-and-black-background-illustration-picture-image_1205245.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+	
+}
+
+#buttons{
+	
+	
+	width: 300px;
+	height: 40px;
+	text-align: center;
+	
+
+}
+
+#online{
+	color: aliceblue;
+}
+
+
+#home{
+	color: aliceblue;
+}
+
+#aboutss{
+	color: aliceblue;
+}
+ #contactss{
+	 color: aliceblue;
+ }
+
+#msg{
+	color: aliceblue;
+}
+#em{
+color: aliceblue;	
+}
+#fed{
+color: aliceblue;	
+}
+
+
+#views{
+	background-color: rgb(124, 171, 228);
+	background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20190223/ourmid/pngtree-simple-technology-blue-background-design-display-boardbackground-materialinnovationtechnologybackground-image_72625.jpg) ;
+}
+
+#hom{
+	color: aliceblue;
+}
+#abo{
+	color: aliceblue;
+}
+#conta{
+	color: aliceblue;
+}
+
+#vi{
+	color: aliceblue;
+}
+

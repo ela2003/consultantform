@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" th:href="@{/css/style.css}"/>
+<title>Registration Form</title>
+</head>
+<body>
+	
+	
+<h1>Registration Form</h1>
+
+ <form  th:action="@{/form}" th:object="${form}" method="post" enctype="multipart/form-data" id="form">
+        <p>Name: <input type="text"   th:field="*{name}" /></p>
+        <p>Father's Name: <input type="text" th:field="*{Father_Name}" /></p>
+        <p>Address: <input type="text" th:field="*{Address}" /></p>
+        <p>Email: <input type="email" th:field="*{Email}" /></p>
+          <p>Mobile number: <input type="tel" th:field="*{Mobile_no}" /></p>
+         <p>Date of Birth: <input type="date" min="1962-12-31"  max="2003-12-31" th:field="*{dateofbirth}" /></p>
+        <p>Gender:
+            <input type="radio" th:field="*{Gender}" value="Male" /> Male
+            <input type="radio" th:field="*{Gender}" value="Female" /> Female
+            <input type="radio" th:field="*{Gender}" value="Other" /> Other
+        </p>
+        <p>Education Qualification:
+            <select th:field="*{Education_Qualification}">
+                <option value="">Select </option>
+                <option value="Graduation">Graduation</option>
+                <option value="Post Graduation">post graduation</option>
+                <option value="PHD">PHD</option>
+                <!-- Add more options as needed -->
+            </select>
+        </p>
+         <p>Experience:
+            <select th:field="*{Experience}">
+                <option value="">Select </option>
+                
+                <option value="2 year 6 Month">2 year 6 Month</option>
+                <option value="3 year 5 Month">3 year 5 Month</option>
+                <option value="4 year ">4 year </option>
+                <!-- Add more options as needed -->
+            </select>
+        </p>
+        
+         <p>Field:
+            <select th:field="*{Field}">
+                <option value="">Select </option>
+                <option value="Investigation">Investigation</option>
+                <option value="Prosecution ">Prosecution </option>
+                <option value="Law">Law</option>
+              
+                <!-- Add more options as needed -->
+            </select>
+        </p>
+        
+        	
+						
+         <!-- name="pdfData" -->
+        
+        <p>Resume: <input type="file" th:field="*{Resume}"/></p>
+        <p><input type="submit" value="Submit" /></p>
+    </form>
+   
+     
+	
+
+</body>
+</html>
